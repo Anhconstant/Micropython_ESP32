@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 time.sleep(2)
-ver = "1.0"
+ver = "1.1"
 print("main in ver "+ ver)
 print("start main")
 led = Pin(15,Pin.OUT)
