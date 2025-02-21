@@ -8,5 +8,5 @@ led = Pin(15,Pin.OUT)
 
 while True:
     led.value(not(led.value()))
-    time.sleep(1)
+    time.sleep_ms(100)
     
